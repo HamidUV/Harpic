@@ -1,0 +1,395 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.bar{
+
+    font-family:'Ubuntu', sans-serif; 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(181, 4, 4);
+    padding-bottom: 5px;
+    height: 28px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 8px;
+    
+    
+}
+.Mouse:hover{
+    color:lightgray;
+    text-decoration: underline white ;
+    
+    
+}
+
+    
+
+.icon{
+    width: 32px;
+    
+
+}
+
+    
+    
+
+h2{
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(181, 4, 4);
+}
+.para1{
+    margin: 40px;
+    
+    font-size: 55%;
+     color:darkolivegreen;
+     font-family:'Ubuntu', sans-serif;
+}
+
+.pic{
+    margin-top: -250px;
+    margin-left: 320px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    width: 50%;
+    height: 220px;
+    
+    
+}
+
+
+.TextMain{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(181, 4, 4);
+    text-align: center;
+    padding: 25px;
+    
+    
+    
+    
+}
+
+
+.one , .two , .three {
+    
+    
+    height:200px;
+    width: 100%;
+    background-color:rgb(181, 4, 4);
+    /*border:1px solid white;*/
+    text-align: center;
+  padding: 5px;
+    
+    
+
+}
+.container{
+    height: 150px;
+    background-color: aqua;
+   display: flex;
+   flex-direction: row;
+   /* flex-wrap: wrap;*/
+   align-items: center ;
+justify-content:center;
+   align-items: flex-end;
+}
+h3{
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+}
+h6{
+    font-weight: lighter;
+    font-family:'Ubuntu', sans-serif;
+    margin-top:-50px ;
+    padding: 50px;
+    color: white;
+  
+
+}
+
+.Text2{  
+    font-size: 10px;
+    color: white;
+    font-weight: lighter;
+    
+}
+.pic1{
+    
+    height: 100px;
+    width: 100px;
+    
+}
+.Textsize{
+    text-decoration: underline .5px;
+}
+.Textsize:hover{
+    
+    
+    cursor: pointer;
+}
+
+.RedText{
+
+    font-size: 8px;
+    color: azure;
+    margin-top: -60px;
+}
+.Page3img{
+    width: 35%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+   
+
+   
+
+.Page3Main{
+    margin-left: 320px;
+    margin-top: -250px;
+    font-family: 'ubuntu' , sans-serif;
+    font-weight: bold;
+    color: rgb(181, 4, 4);
+    font-size: 20px;
+
+    
+}
+.Page3text{
+    font-size: 10px;
+    font-family:'ubuntu',sans-serif;
+    margin-left: 320px;
+    
+}
+
+.Button{
+
+    border-radius: 1px;
+    font-size: 7px;
+    margin-left: 320px;
+    color: deepskyblue;
+    border-color: deepskyblue;
+    border-width: .5px;
+    background-color: white;
+    
+}
+.Button:hover{
+    text-decoration: underline .2px;
+    color: rgb(7, 79, 118);
+}
+
+
+.Page4{
+    margin-top: 90px;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.Page4Text{
+    color: brown;
+}
+
+.Bar4{
+    
+    width: 500px;
+    height: 270px;
+    background-color:blue;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+        
+    
+}
+.Bar4-1{
+    padding: 1px;
+    margin-left: 30px;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.Page4Text{
+    font-size: 7px;
+    color: white;
+    
+    font-family: 'ubuntu', sans-serif;
+}
+
+.Page4img{ height: 230px; width: 250px; margin-left: 250px; margin-top: -100%; border-top-left-radius: 20px ; border-bottom-left-radius: 20px; } 
+.Button2{ width: 50px; height: 14px; border-radius: 2px; margin-left: 30px; color: rgb(245, 249, 250); border-color: rgb(228, 231, 236); border-width: .5px; background-color: rgb(9, 19, 156); } 
+.AfterBtn{ font-size: 7px; margin-left: 90px; margin-top: -12px; color: white; }
+ .Btntxt{ font-size: 6px; font-family: 'ubuntu',sans-serif; margin-top: 1.5px; }
+
+ .AfterBtn:hover{
+    text-decoration: underline;
+ }
+ .Button2:hover{
+    text-decoration: underline
+ }
+ 
+ .Page6img{
+    width: 608px;
+    height: 350px;
+
+ }
+ .Page5txt{
+    width: 250px;
+    height: 80px;
+    margin-top: -230px;
+    margin-left: 180px;
+    
+ }
+ h4{
+    
+    font-size: 20px;
+    font-family: 'ubuntu',sans-serif;
+    color:  rgb(181, 4, 4);;
+ }
+ .Page5txt2{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 8px;
+    
+ }
+ .Btn5{
+    width: 53px;
+    height: 20px;
+    border: solid .5px  rgb(68, 68, 188);;
+    background-color: white;
+    font-size: 6px;
+    color:  rgb(68, 68, 188);;
+    font-family: 'ubuntu',sans-serif;
+    border-radius: 2px;
+    
+
+    
+
+ }
+ .Afterbtn5{
+    font-size: 6px;
+    font-family:'ubuntu',sans-serif;
+    margin-top: -12px;
+    margin-left: 70px;
+    color: rgb(68, 68, 188);
+
+    
+ }
+ .Btn5:hover{
+    text-decoration: underline;
+    color: rgb(2, 2, 129);
+    border-color: rgb(2, 2, 129);
+    font-weight: bold;
+
+ }.Afterbtn5:hover{
+    text-decoration: underline;
+    color: rgb(2, 2, 129);
+    font-weight: bold;
+ }
+ .Lastpage{
+    background-color: red;
+    height: 295px;
+    width: 100%;
+ }
+ 
+ .Lastpagetxt{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'ubuntu',sans-serif;
+    color: rgb(234, 233, 235);
+    text-align: center;
+    padding-top: 30px;
+    font-stretch: expanded;
+   
+
+  
+   
+ }
+ .lasticon{
+    width: 35px;
+    
+ }
+ .lsttxt{
+    margin-left: 105px;
+ }
+ .lastpage2{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+ }
+ .footer{
+    height: 220px;
+    width: 100%;
+    background-color:  rgb(181, 4, 4);
+    
+ }
+.lstbtn{
+    width: 55px;
+    height: 17px;
+    background-color:  rgb(181, 4, 4);
+    font-size: 5px;
+    
+    border-radius:2px ;
+    border: solid .5px  white;
+    color: white;
+    font-family: 'ubuntu',sans-serif ;
+
+    font-weight: bold;
+    font-stretch: expanded;
+    
+    
+    
+}
+.lstbtn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerr{
+    font-size: 8px;
+    color: black;
+    font-family: 'ubuntu',sans-serif ;
+    font-stretch: expanded;
+    margin-top: 40px;
+    margin-left:-80px;
+}
+.footerr:hover{
+    color: rgb(34, 82, 159);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.iconss{
+    margin-left: 340px;
+    
+    margin-bottom: -80px;
+   
+}
+ 
+.ft1{
+    color: black;
+    font-size: 6px;
+    margin-left: -80px;
+   
+}
+.iconss:hover{
+    cursor: pointer;
+    
+}
+ 
+
+ 
+ 
+ 
+ 
